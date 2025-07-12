@@ -24,7 +24,7 @@ const ClothingItemCard: React.FC<ClothingItemCardProps> = ({ item }) => {
     <Card hover className="overflow-hidden">
       <div className="relative">
         <img
-          src={item.images[0]}
+          src={item.images[0] ? `http://localhost:5000${item.images[0]}` : '/placeholder.jpg'}
           alt={item.title}
           className="w-full h-48 object-cover"
         />
