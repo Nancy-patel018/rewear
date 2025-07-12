@@ -1,4 +1,3 @@
-# rewear
 # ReWear
 
 A community clothing exchange platform built with React, Node.js, and MongoDB.
