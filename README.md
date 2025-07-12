@@ -21,11 +21,7 @@ This project uses [Cloudinary](https://cloudinary.com/) for image storage and de
    - Note your `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, and `CLOUDINARY_API_SECRET`.
 3. **Configure your backend:**
    - In your backend `.env` file, add:
-     ```env
-     CLOUDINARY_CLOUD_NAME=your_cloud_name
-     CLOUDINARY_API_KEY=your_api_key
-     CLOUDINARY_API_SECRET=your_api_secret
-     ```
+  
    - The backend uses these credentials to upload images to Cloudinary.
 4. **Image URLs:**
    - Uploaded images are stored in Cloudinary and their URLs are saved in the database.
